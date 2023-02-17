@@ -22,7 +22,12 @@ program ini dibuat menggunakan 3 class, yaitu :
 Pada program java, inputan dilakukan secara manual/hardcode, dan output dari program ini berupa data mahasiswa yang tersedia.
 
 # Dokumentasi
-Pada program java.
+- program PHP
+
+
+![dokumentasi_php](https://user-images.githubusercontent.com/100755457/219675741-70836583-ac3f-4402-acb6-860025bb092d.png)
+
+- Pada program java.
 
 
 ![dokumentasi_java](https://user-images.githubusercontent.com/100755457/218934341-1f3400cf-f02e-4f2b-9b2f-5ee2927229f9.png)
