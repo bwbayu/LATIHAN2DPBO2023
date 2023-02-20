@@ -10,16 +10,21 @@ Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, d
 # Desain Program
 program ini dibuat menggunakan 3 class, yaitu :
 1. class Human
-- class Human memiliki 3 atribut yaitu NIK, nama, dan jenis kelamin. class Human merupakan parent class. method yang tersedia pada class ini terdiri dari setter dan getter untuk setiap atributnya.
+- class Human memiliki 3 atribut yaitu NIK, nama, dan jenis kelamin. class Human menjadi parent class untuk class SivitasAkademik karena semua objek sivitas akademik itu berisi objek manusia ex. mahasiswa, dosen tapi tidak semua objek Human itu termasuk sivitas akademik ex. pengusaha. Method yang tersedia pada class ini terdiri dari setter dan getter untuk setiap atributnya, serta method tampil untuk menampilkan data.
 
 2. class SivitasAkademik
-- class SivitasAkademik memiliki 2 atribut yaitu asal universitas dan email universitas. class SivitasAkademik merupakan subclass dari class Human karena sivitas akademik adalah sekumpulan manusia yang terdiri dari mahasiswa dan dosen, makanya class ini merupakan child dari class Human. class SivitasAkademik merupakan parent class untuk class Mahasiswa.
+- class SivitasAkademik memiliki 2 atribut yaitu asal universitas dan email universitas. class SivitasAkademik menjadi child class dari class Human karena berdasarkan definisinya, sivitas akademik adalah sekelompok orang yang terlibat dalam kegiatan akademik. Oleh karena itu, secara objek, class Human dan SivitasAkademik itu sama sama manusia. class SivitasAkademik juga merupakan parent class untuk class Mahasiswa. Method yang tersedia pada class ini terdiri dari setter dan getter untuk setiap atributnya, serta 2 method tampil, yaitu menampilkan data dari class SivitasAkademik dan menampilkan data dari class SivitasAkademik beserta parent class-nya.
 
 3. class Mahasiswa
-- class Mahasiswa memiliki 3 atribut yaitu NIM, program studi, dan fakultas. class Mahasiswa merupakan child dari class SivitasAkademik karena mahasiswa termasuk kedalam komunitas sivitas akademik.
+- class Mahasiswa memiliki 3 atribut yaitu NIM, program studi, dan fakultas. class Mahasiswa menjadi child class dari sivitas akademik karena sivitas akademik itu terdiri dari mahasiswa, dosen, dll. Method yang tersedia pada class ini terdiri dari setter dan getter untuk setiap atributnya, serta 2 method tampil, yaitu menampilkan data dari class Mahasiswa dan menampilkan data dari class Mahasiswa beserta parent class-nya.
+
+Berikut adalah design dari program dengan menggunakan class diagram.
+
+![design](https://user-images.githubusercontent.com/100755457/220111434-6ef57793-7990-47b0-bd35-b395e9fee004.jpg)
+
 
 # Alur Program
-Pada program java, inputan dilakukan secara manual/hardcode, dan output dari program ini berupa data mahasiswa yang tersedia.
+Menginisialisasikan list untuk menampung data objek Mahasiswa kemudian data di inputkan secara manual/hardcode lalu data yang telah di inputkan melalui constructor tiap class akan ditampilkan berupa list Data Mahasiswa.
 
 # Dokumentasi
 - program PHP
